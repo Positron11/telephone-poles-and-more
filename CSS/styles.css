@@ -3,7 +3,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: 'EB Garamond', serif;
 }
 
@@ -44,7 +44,7 @@ a {
 	grid-auto-rows: 10px;
 	grid-auto-flow: dense;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 12px inset;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
 }
 
 /* Image cards */
@@ -85,7 +85,7 @@ a {
 
 @media only screen and (max-width: 1000px) {
 	#page {
-		padding: 1em 2em;
+		padding: 1em 2.5em;
 	}
 	#gallery {
 		padding: 1em;
@@ -94,15 +94,18 @@ a {
 
 @media only screen and (max-width: 700px) {
 	#page {
-		padding: 0.5em 1em;
+		padding: 0.5em 1.5em;
+	}
+	#heading {
+		font-size: 11vw;
 	}
 	#gallery {
 		padding: 0.5em;
 	}
 }
 
-@media only screen and (max-width: 550px) {
-	#heading {
-		font-size: 12.6vw;
+@media only screen and (max-width: 450px) {
+	#page {
+		font-size: 5.5vw;
 	}
 }
