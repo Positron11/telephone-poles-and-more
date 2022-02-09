@@ -31,6 +31,11 @@
 	<!-- Twitter article meta tags -->
 	<meta name="twitter:card" content="summary_large_image">
 
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"> 
+
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 </head>
