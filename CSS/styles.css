@@ -54,6 +54,7 @@ a {
 	margin: 0.5em;
 	padding: 0.5em;
 	overflow: hidden;
+	visibility: hidden;
 	border-radius: 0.3em;
 	background-color: white;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
