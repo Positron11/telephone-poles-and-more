@@ -52,6 +52,12 @@
 		<!-- Gallery grid -->
 		<div id="gallery"></div>
 
+		<!-- Focus card -->
+		<div id="focus_container">
+			<img id="focus_image">
+			<div id="focus_caption"></div>
+		</div>
+
 		<!-- Footer -->
 		<div id="footer">
 			<p>Unlicensed 'cause I couldn't be bothered. Use them as you please, but maybe credit me.</p>
