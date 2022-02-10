@@ -3,6 +3,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	color: #333;
 	font-size: 25px;
 	font-family: 'EB Garamond', serif;
 }
@@ -16,6 +17,7 @@ a {
 
 #page {
 	padding: 2em 4em;
+	max-width: 2000px;
 }
 
 
@@ -29,7 +31,7 @@ a {
 	margin-bottom: 1rem;
 }
 #subheading {
-	color: #999;
+	color: #777;
 	font-size: 0.8em;
 }
 
@@ -44,7 +46,7 @@ a {
 	grid-auto-rows: 10px;
 	grid-auto-flow: dense;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 12px inset;
-	grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 }
 
 /* Image cards */
@@ -62,10 +64,12 @@ a {
 	background-color: #eee;
 }
 #gallery .image-container .image-caption {
-	color: #999;
+	color: #555;
 	margin: 1.3em 0;
-	font-size: 0.7em;
+	font-size: 0.5em;
 	text-align: center;
+	word-spacing: 0.5em;
+	font-family: 'Homemade Apple', cursive;
 }
 
 
@@ -76,7 +80,7 @@ a {
 	text-align: center;
 }
 #footer p {
-	color: #999;
+	color: #777;
 	font-size: 0.7em;
 }
 
