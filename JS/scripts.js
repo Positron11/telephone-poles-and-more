@@ -10,13 +10,13 @@ $(function () {
 	}
 
 	// calculate row spans on load
-	$("img").on("load", function () { 
-		$.when(resizeImage($(this).parent())).then($(this).parent().css("visibility", "visible")); 
+	$(".photograph").on("load", function () {
+		$.when(resizeImage($(this).parent())).then($(this).parent().css("visibility", "visible"));
 	});
 
 	// calculate row spans on resize
-	$(window).on("resize", function () { 
-		$("img").each(function () { resizeImage($(this).parent()); }); 
+	$(window).on("resize", function () {
+		$(".photograph").each(function () { resizeImage($(this).parent()); });
 	});
 });
 
